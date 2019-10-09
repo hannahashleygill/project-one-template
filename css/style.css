@@ -4,9 +4,39 @@ body {
 	background-position: center;
 
 }
-.floating-text article{
-	min-width: 160px;
+
+a {text-decoration: none;
+
+}
+
+nav ul {
+	list-style-type: none;
+
+}
+
+nav li {
+	display: inline-block;
+	display: horizontal;
+
+}
+.vodka article {
+	position: relative;
+
+}
+
+vodka article {
+	position: absolute;
+	top: 60 px;
+	right: 160px;
+
+}
+
+.vodka article {
+	width: 160px;
 	min-height: 200px;
+	display: inline-block;
 	background-color: orange;
-	
+	padding: 20px;
+
+
 }
