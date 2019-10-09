@@ -1,1 +1,12 @@
-/* Enter your Styles below! */
+body {
+	background-image: url();
+	background-size: cover;
+	background-position: center;
+
+}
+.floating-text article{
+	min-width: 160px;
+	min-height: 200px;
+	background-color: orange;
+	
+}
