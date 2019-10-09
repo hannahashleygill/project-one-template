@@ -16,7 +16,10 @@ nav ul {
 
 nav li {
 	display: inline-block;
+	text-align: center;
 	display: horizontal;
+	margin-left: 40px;
+
 
 }
 .vodka article {
