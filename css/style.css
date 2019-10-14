@@ -1,6 +1,19 @@
-body {
-	background-image: url();
+header {
+	min-height: 100px;
+	background-color: #D2D9C7;
+	font-family: "flegrei", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 65px;
+	padding: 50px;
+
+
+}
+.index-main {
+	background-image: distillery.jpeg ("distillery.jpeg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
 
 }
@@ -14,20 +27,47 @@ nav ul {
 
 }
 
-nav li {
+li a {
 	display: inline-block;
 	text-align: center;
 	display: horizontal;
-	margin-left: 40px;
-
+	margin-right: 100px;
+	margin-left: 100px;
 
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D2D9C7;
+  text-align:center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #B9BFB0;
+}
+
 .vodka article {
 	position: relative;
+	background-image: 
 
 }
 
-vodka article {
+.vodka article {
 	position: absolute;
 	top: 60 px;
 	right: 160px;
@@ -41,5 +81,18 @@ vodka article {
 	background-color: orange;
 	padding: 20px;
 
+
+}
+
+footer {
+	height: 10px;
+	background-color: #D2D9C7;
+	float: bottom;
+	font-family: "flegrei", sans-serif;
+	font-weight: 100px;
+	font-style: normal;
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
 
 }
