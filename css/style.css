@@ -1,81 +1,126 @@
-header {
+.head {
+	color: white;
 	min-height: 100px;
 	background-color: #D2D9C7;
 	font-family: "flegrei", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	text-align: center;
-	font-size: 65px;
-	padding: 50px;
-
-
+	font-size: 75px;
+	padding-top: 50px;
 }
+
 .index-main {
-	background-image: distillery.jpeg ("distillery.jpeg");
+	height: 120vh;
+	background-image: url(../images/dis.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top center;
 
 }
 
-a {text-decoration: none;
+.index-main article {
+	display: inline-block;
+	width: 300px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
 
 }
 
-nav ul {
+.nav {
+
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D2D9C7;
+	text-align:center;
 
 }
 
 li a {
-	display: inline-block;
 	text-align: center;
-	display: horizontal;
 	margin-right: 100px;
 	margin-left: 100px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding:10px 10px;
+	text-decoration: none;
+	font-family: halyard-display, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 15px;
 
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #D2D9C7;
-  text-align:center;
 }
 
 li {
   display: inline-block;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-}
-
 li a:hover {
   background-color: #B9BFB0;
 }
 
-.vodka article {
+.vodka-main {
+	height: 120vh;
+	background-image: url(../images/vod.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40% 60%;
+
+}
+
+.gin-main {
+	height: 120vh;
+	background-image: url(../images/gin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 30% 70%;
+
+}
+
+.tequila-main {
+	height: 120vh;
+	background-image: url(../images/teq.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 20% 80%;
+
+}
+
+.whiskey-main {
+	height: 120vh;
+	background-image: url(../images/whis.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+}
+
+.url {
+	object-fit: fill;
+}
+
+.description-vodka {
 	position: relative;
 	background-image: 
 
 }
 
-.vodka article {
+.description-vodka {
 	position: absolute;
-	top: 60 px;
-	right: 160px;
+	top: 300px;
+	left: 160px;
 
 }
 
-.vodka article {
-	width: 160px;
+.description-vodka {
+	width: 200px;
 	min-height: 200px;
 	display: inline-block;
 	background-color: orange;
@@ -88,11 +133,13 @@ footer {
 	height: 10px;
 	background-color: #D2D9C7;
 	float: bottom;
-	font-family: "flegrei", sans-serif;
-	font-weight: 100px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 500;
 	font-style: normal;
-	text-align: center;
-	font-size: 20px;
+	text-align: right;
+	font-size: 13px;
 	padding: 20px;
 
 }
+
+
