@@ -1,7 +1,7 @@
 .head {
 	color: white;
 	min-height: 100px;
-	background-color: #D2D9C7;
+	background-color: #345D7E;
 	font-family: "flegrei", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -29,7 +29,12 @@
 	font-weight: 300;
 	font-style: normal;
 	font-size: 17px;
+	line-height: 19px;
 
+}
+
+.second-paragraph {
+	text-indent: 24px
 }
 
 .nav {
@@ -38,7 +43,7 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #D2D9C7;
+	background-color: #345D7E;
 	text-align:center;
 
 }
@@ -69,10 +74,10 @@ li a:hover {
 
 .vodka-main {
 	height: 120vh;
-	background-image: url(../images/vod.jpeg);
+	background-image: url(../images/vod.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 40% 60%;
+	background-position: 50% 50%;
 
 }
 
@@ -81,7 +86,7 @@ li a:hover {
 	background-image: url(../images/gin.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 30% 70%;
+	background-position: 80% 20%;
 
 }
 
@@ -96,10 +101,10 @@ li a:hover {
 
 .whiskey-main {
 	height: 120vh;
-	background-image: url(../images/whis.jpg);
+	background-image: url(../images/wis.jpg);
 	background-size: cover; 
 	background-repeat: no-repeat;
-	background-position: 100% 0%;
+	background-position: 50% 50%;
 }
 
 .url {
@@ -131,7 +136,7 @@ li a:hover {
 
 footer {
 	height: 10px;
-	background-color: #D2D9C7;
+	background-color: #345D7E;
 	float: bottom;
 	font-family: halyard-display, sans-serif;
 	font-weight: 500;
@@ -142,4 +147,8 @@ footer {
 
 }
 
+
+@media only screen and (max-width: 768px) {
+
+}
 
