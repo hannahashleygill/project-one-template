@@ -1,4 +1,4 @@
-.head {
+.index-head {
 	color: white;
 	min-height: 100px;
 	background-color: #345D7E;
@@ -10,34 +10,7 @@
 	padding-top: 50px;
 }
 
-.index-main {
-	height: 120vh;
-	background-image: url(../images/dis.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-
-}
-
-.index-main article {
-	display: inline-block;
-	width: 300px;
-	color: white;
-	margin-top: 50px;
-	margin-left: 50px;
-	font-family: halyard-display, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 17px;
-	line-height: 19px;
-
-}
-
-.second-paragraph {
-	text-indent: 24px
-}
-
-.nav {
+.index-nav {
 
 	list-style-type: none;
 	margin: 0;
@@ -72,12 +45,114 @@ li a:hover {
   background-color: #B9BFB0;
 }
 
-.vodka-main {
+.index-main {
 	height: 120vh;
-	background-image: url(../images/vod.jpg);
+	background-image: url(../images/dis.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 50% 50%;
+	background-position: top center;
+
+}
+
+.index-main article {
+	display: inline-block;
+	width: 300px;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 19px;
+
+}
+
+.index-main2 {
+	text-indent: 24px
+}
+
+.vodka-head {
+	color: white;
+	min-height: 100px;
+	background-color: #73C0FF;
+	font-family: "flegrei", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 75px;
+	padding-top: 50px;
+}
+
+.vodka-nav {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #73C0FF;
+	text-align:center;
+
+}
+
+.vodka-main {
+	height: 120vh;
+	background-image: url(../images/vodka.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 20% 80%;
+
+}
+
+.vodka-main2 {
+	text-indent: 24px
+}
+
+.description-vodka {
+	position: absolute;
+	top: 225px;
+	left: 50px;
+
+}
+
+.description-vodka {
+	width: 275px;
+	min-height: 200px;
+	display: inline-block;
+	background-color: #73C0FF;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 19px;
+	padding: 20px;
+
+
+}
+
+.gin-head {
+	color: white;
+	min-height: 100px;
+	background-color: #8CCBFF;
+	font-family: "flegrei", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 75px;
+	padding-top: 50px;
+}
+
+.gin-nav {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #8CCBFF;
+	text-align:center;
 
 }
 
@@ -90,12 +165,116 @@ li a:hover {
 
 }
 
+.gin-main2 {
+	text-indent: 24px
+}
+
+.description-gin {
+	position: absolute;
+	top: 225px;
+	left: 1225px;
+
+}
+
+.description-gin {
+	width: 275px;
+	min-height: 200px;
+	display: inline-block;
+	background-color: #8CCBFF;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 19px;
+	padding: 20px;
+
+
+}
+
+.tequila-head {
+	color: white;
+	min-height: 100px;
+	background-color: #B37E2D;
+	font-family: "flegrei", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 75px;
+	padding-top: 50px;
+}
+
+.tequila-nav {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #B37E2D;
+	text-align:center;
+
+}
+
 .tequila-main {
 	height: 120vh;
-	background-image: url(../images/teq.jpg);
+	background-image: url(../images/taqi.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 20% 80%;
+	background-position: 80% 20%;
+
+}
+
+.tequila-main2 {
+	text-indent: 24px
+}
+
+.description-tequila {
+	position: absolute;
+	top: 225px;
+	left: 1225px;
+
+}
+
+.description-tequila {
+	width: 275px;
+	min-height: 200px;
+	display: inline-block;
+	background-color: #B37E2D;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 19px;
+	padding: 20px;
+
+
+}
+
+.whiskey-head {
+	color: white;
+	min-height: 100px;
+	background-color: #FFC873;
+	font-family: "flegrei", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 75px;
+	padding-top: 50px;
+}
+
+.whiskey-nav {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #FFC873;
+	text-align:center;
 
 }
 
@@ -107,28 +286,30 @@ li a:hover {
 	background-position: 50% 50%;
 }
 
-.url {
-	object-fit: fill;
+.whiskey-main2 {
+	text-indent: 24px
 }
 
-.description-vodka {
-	position: relative;
-	background-image: 
-
-}
-
-.description-vodka {
+.description-whiskey {
 	position: absolute;
-	top: 300px;
-	left: 160px;
+	top: 225px;
+	left: 50px;
 
 }
 
-.description-vodka {
-	width: 200px;
+.description-whiskey {
+	width: 275px;
 	min-height: 200px;
 	display: inline-block;
-	background-color: orange;
+	background-color: #FFC873;
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	font-family: halyard-display, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 19px;
 	padding: 20px;
 
 
@@ -147,8 +328,28 @@ footer {
 
 }
 
+.gin-foot {
+
+	background-color: #8CCBFF;
+
+}
+
+.vodka-foot {
+	background-color: #73C0FF;
+}
+
+.tequila-foot {
+
+	background-color: #B37E2D;
+
+}
+
+.whiskey-foot {
+
+	background-color: #FFC873;
+
+}
 
 @media only screen and (max-width: 768px) {
 
 }
-
